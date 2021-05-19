@@ -1,11 +1,11 @@
 import React from 'react'
-import { Home } from './pages'
-import './Assets/style.scss'
+import { Home,AddEvents } from './pages'
 
 const App = () => {
   return (
     <div>
-      <Home/>
+      {/* <Home/> */}
+      <AddEvents/>
     </div>
   )
 }

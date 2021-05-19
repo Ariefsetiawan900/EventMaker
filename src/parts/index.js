@@ -1,3 +1,4 @@
-import Header from './Header'
+import Header from "./Header";
+import FormInput from "./FormInput";
 
-export {Header}
+export { Header, FormInput };

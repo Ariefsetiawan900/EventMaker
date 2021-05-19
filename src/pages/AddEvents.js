@@ -1,10 +1,12 @@
 import React from 'react'
+import { Header,FormInput } from '../parts'
 
 const AddEvents = () => {
     return (
-        <div>
-            Add Events
-        </div>
+        <>
+           <Header/>
+<FormInput/>
+        </>
     )
 }
 
