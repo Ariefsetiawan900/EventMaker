@@ -1,13 +1,19 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
+  const location = useLocation();
+
+  const getNavLinkClass = (path) => {
+    return location.pathname === path ? "actives" : "";
+  };
   return (
     <header className="container my-4">
       <nav className="navbar navbar-expand-lg navbar-light bg-light custom-nav p-4">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           {/* <img src="img/logo.png" alt="Logo Navbar" /> */}
           <span>EventMaker</span>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -25,14 +31,20 @@ const Header = () => {
         >
           <ul className="navbar-nav">
             <li className="nav-item align-self-center">
-              <a className="nav-link" href="#">
+              <Link
+                className={`nav-link  ${getNavLinkClass("/addevent")}`}
+                to="/addevent"
+              >
                 +Add Event
-              </a>
+              </Link>
             </li>
             <li className="nav-item align-self-center">
-              <a className="nav-link" href="#">
+              <Link
+                className={`nav-link  ${getNavLinkClass("/dashboard")}`}
+                to="/dashboard"
+              >
                 Dashboard
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

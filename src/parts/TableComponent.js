@@ -159,6 +159,7 @@ const TableComponent = () => {
       >
         {(props) => (
           <div>
+
             <h3>Dashboard</h3>
             <SearchBar {...props.searchProps} className="my-3"/>
 
