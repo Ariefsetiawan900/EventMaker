@@ -1,13 +1,13 @@
-import React from 'react'
-import { Header,FormInput } from '../parts'
+import React from "react";
+import { Header, FormInput } from "../parts";
 
 const AddEvents = () => {
-    return (
-        <>
-           <Header/>
-<FormInput/>
-        </>
-    )
-}
+  return (
+    <>
+      <Header />
+      <FormInput />
+    </>
+  );
+};
 
-export default AddEvents
+export default AddEvents;

@@ -1,10 +1,14 @@
 import React from "react";
-import { Form, FormGroup, Label, Input, Col, Row } from "reactstrap";
+import { Ilust } from "../parts";
+import { Form, FormGroup, Label, Input, Col, Row, Button } from "reactstrap";
 
 const FormInput = () => {
   return (
-    <div className="d-flex justify-content-center align-items-center h-100">
-      <Form className="form-login p-4 rounded">
+    <div
+      className="d-flex align-items-center h-100 container w-75 "
+      style={{ backgroundColor: "white", borderRadius:"2rem" }}
+    >
+      <Form className="form-login p-4 ">
         <h3 className="text-center mb-5">Add Event</h3>
         <Row form className="justify-content-center">
           <Col md={5}>
@@ -44,7 +48,14 @@ const FormInput = () => {
             </FormGroup>
           </Col>
         </Row>
+        
+          <Button color="primary" className="float-right mr-4">
+            Submit
+          </Button>
+        
       </Form>
+
+      <Ilust />
     </div>
   );
 };
