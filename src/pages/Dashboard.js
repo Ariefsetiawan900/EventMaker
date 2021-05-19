@@ -1,10 +1,12 @@
 import React from 'react'
+import { Header,TableComponent } from '../parts'
 
 const Dashboard = () => {
     return (
-        <div>
-            Dashboard
-        </div>
+        <>
+            <Header/>
+            <TableComponent/>
+        </>
     )
 }
 

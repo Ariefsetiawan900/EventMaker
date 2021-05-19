@@ -1,11 +1,12 @@
 import React from 'react'
-import { Home,AddEvents } from './pages'
+import { Home,AddEvents,Dashboard } from './pages'
 
 const App = () => {
   return (
     <div>
-      <Home/>
+      {/* <Home/> */}
       {/* <AddEvents/> */}
+      <Dashboard/>
     </div>
   )
 }
