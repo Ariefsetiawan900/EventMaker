@@ -1,10 +1,12 @@
 import React from 'react'
-import {Header  } from '../parts'
+import {Header,CardEvent  } from '../parts'
 
 const Home = () => {
     return (
-        <div>
+        <div className="container">
             <Header/>
+            <CardEvent/>
+            
         </div>
     )
 }

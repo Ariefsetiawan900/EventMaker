@@ -4,8 +4,8 @@ import { Home,AddEvents } from './pages'
 const App = () => {
   return (
     <div>
-      {/* <Home/> */}
-      <AddEvents/>
+      <Home/>
+      {/* <AddEvents/> */}
     </div>
   )
 }
