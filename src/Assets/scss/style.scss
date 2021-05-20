@@ -27,12 +27,13 @@ body {
 
     #navbarNav {
         .navbar-nav {
-           
+
             .nav-item {
                 .actives {
                     font-weight: bold !important;
                     color: #00b7ff !important;
                 }
+
                 .nav-link {
                     color: black;
                     font-weight: 500;
@@ -44,7 +45,7 @@ body {
                         color: darken(#00b7ff, 10%);
 
                     }
-                   
+
 
                 }
 
@@ -73,20 +74,17 @@ body {
 // end of Nav 
 
 // form 
-.form-login{
+.form-login {
     // background-color: white;
-   max-width: 45%;
+    max-width: 45%;
     // border: 1px solid #888;
     // padding: 40px 40px ;
     // min-width: 600px;
     // border-radius: 5px;
 }
 
-// end of Form 
 
-// Ilustration
-
-.imgContent{
+.imgContent {
     // background-color: white;
     // width: 700px;
     max-width: 500px;
@@ -94,5 +92,4 @@ body {
     // padding: 1rem;
 }
 
-// thead 
-
+// end of Form 
