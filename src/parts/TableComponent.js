@@ -13,6 +13,7 @@ const TableComponent = ({ posts }) => {
     </span>
   );
 
+
   const options = {
     paginationSize: 5,
     pageStartIndex: 1,
@@ -86,7 +87,7 @@ const TableComponent = ({ posts }) => {
   ];
   return (
     <Container>
-      <ToolkitProvider keyField="id" data={posts} columns={columns} search>
+      <ToolkitProvider keyField="title" data={posts} columns={columns} search>
         {(props) => (
           <div>
             <h3>Dashboard</h3>

@@ -16,7 +16,7 @@ const CardEvent = ({ posts }) => {
   console.log(posts);
   return (
     <Container className="mt-5">
-      <Row className="d-flex justify-content-center flex-wrap ">
+      <Row className="d-flex justify-content-around flex-wrap-reverse ">
         {posts.map((eventItem, index) => {
           return (
             <Col md="4" className="mb-3" key={index}>
@@ -42,6 +42,7 @@ const CardEvent = ({ posts }) => {
                       <>
                         <img
                           style={{ width: "30px" }}
+                          alt="Avatar"
                           src={`https://avatars.dicebear.com/api/human/${Math.floor(
                             Math.random() * 5000
                           )}.svg`}

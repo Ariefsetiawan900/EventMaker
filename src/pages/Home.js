@@ -13,25 +13,42 @@ const Home = () => {
     dispatch(getPosts());
     document.title = "Home";
   }, [dispatch]);
-  return !posts.length ? (
-    <Container>
-      <div
-        className="d-flex justify-content-center align-items-center"
-        style={{ width: "100%", minHeight: "100vh" }}
-      >
-        <Spinner
-          type="grow"
-          color="light"
-          style={{ width: "30rem", height: "30rem" }}
-        />
-      </div>
-    </Container>
-  ) : (
+
+  if (posts === undefined ) {
+    return (
+      <Container>
+        <Header />
+        <div
+          className=" d-flex justify-content-center align-items-center h1"
+          style={{ minHeight: "100vh",width:"100%" }}
+        >
+          Empty Data
+        </div>
+      </Container>
+    );
+  }
+  if (!posts.length) {
+    return (
+      <Container>
+        <div
+          className="d-flex justify-content-center align-items-center"
+          style={{ width: "100%", minHeight: "100vh" }}
+        >
+          <Spinner
+            type="grow"
+            color="light"
+            style={{ width: "30rem", height: "30rem" }}
+          />
+        </div>
+      </Container>
+    );
+  } else {
+    return(
     <div className="container">
       <Header />
       <CardEvent posts={posts} />
-    </div>
-  );
+    </div>)
+  }
 };
 
 export default Home;

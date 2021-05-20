@@ -41,7 +41,7 @@ const FormInput = () => {
       dispatch(createPost(postEvent));
       console.log(postEvent);
       clear();
-      toast.success("Created a new event", {
+      toast.success("Created a new event, please Refresh this page", {
         position: "bottom-left",
         autoClose: 5000,
         hideProgressBar: false,
@@ -51,6 +51,7 @@ const FormInput = () => {
         progress: undefined,
       });
       history.push("/");
+      
     }
   };
 
