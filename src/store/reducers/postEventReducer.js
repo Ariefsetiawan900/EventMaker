@@ -1,9 +1,10 @@
-// import { DELETE, UPDATE, FETCH_ALL, CREATE } from "../constants/actionTypes";
+import { CREATE, FETCH_PAGE } from "../types";
 
 export default (posts = [], action) => {
-  // console.log(action);
   switch (action.type) {
-    case "CREATE":
+    case FETCH_PAGE:
+      return action.payload;
+    case CREATE:
       return [...posts, action.payload];
     default:
       return posts;
