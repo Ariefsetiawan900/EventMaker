@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# EventMaker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##### -  ScreenShot
+- how to make this App Click(Video) [**Here**](https://drive.google.com/file/d/1PhNmADA9pLCPpVBtnFY8PIO1XjOKtL_d/view?usp=sharing "**Here**")
+##### 1. Home
+<p align="center">
+<img src="https://user-images.githubusercontent.com/61056688/119010377-32139100-b9be-11eb-9201-ea20487d96b5.png"  alt="Landing Page" width="100%"/>
 
-## Available Scripts
+</p>
 
-In the project directory, you can run:
+##### 2. Form 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/61056688/119010610-72730f00-b9be-11eb-9fe1-1878f10a1a57.png"  alt="Detail Page" width="100%"/>
 
-### `npm start`
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+##### 3. Dashboard
+<p align="center">
+<img src="https://user-images.githubusercontent.com/61056688/119010582-6be49780-b9be-11eb-98a1-aa43e9d7c234.png"  alt="Detail Page" width="100%"/>
+<img src="https://user-images.githubusercontent.com/61056688/119010910-b9f99b00-b9be-11eb-8f44-a37819a9810e.png"  alt="Detail Page" width="100%"/>
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## A. Introduction
+EventMaker  an application for user who wants to make Event is so easy
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## B.  Requirements
+1. Install [Github](https://git-scm.com/downloads "Github")
+2. Instal [Node Js](https://nodejs.org/en/ "Node Js")
+3. Instal Dependencies
 
-### `npm run build`
+- Dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+	  "axios": "^0.21.1",
+		"bootstrap": "^5.0.1",
+		"moment": "^2.29.1",
+		"node-sass": "^6.0.0",
+		"react": "^17.0.2",
+		"react-bootstrap-table-next": "^4.0.3",
+		"react-bootstrap-table2-paginator": "^2.1.2",
+		"react-bootstrap-table2-toolkit": "^2.1.3",
+		"react-dom": "^17.0.2",
+		"react-file-base64": "^1.0.3",
+		"react-redux": "^7.2.4",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "4.0.3",
+		"react-toastify": "^7.0.4",
+		"reactstrap": "^8.9.0",
+		"redux": "^4.1.0",
+		"redux-thunk": "^2.3.0",
+		"web-vitals": "^1.1.2"
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## C. How To Install
+1. Open app's directory in CMD/CLI or Terminal.
+2. Download this Project or you can type :
+`git clone https://github.com/Ariefsetiawan900/EventMaker.git`
+3. type :  `npm install`
+4. type :  `npm run start`
+5. Enjoy......
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+------------
